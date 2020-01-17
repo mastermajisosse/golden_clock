@@ -120,7 +120,7 @@ class _AwesomeClockState extends State<AwesomeClock> {
   @override
   Widget build(BuildContext context) {
     final themecolor = Theme.of(context).brightness == Brightness.light
-        ? Helper.darkTheme
+        ? Helper.lightTheme
         : Helper.darkTheme;
 
     final reverseBGcolor = themecolor == Helper.lightTheme
